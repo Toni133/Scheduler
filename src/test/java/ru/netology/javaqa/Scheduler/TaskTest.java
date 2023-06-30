@@ -134,6 +134,7 @@ class TaskTest {
         boolean actual = meeting.matches("обед");
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldSearchOneResult() {
         SimpleTask simpleTask = new SimpleTask(5, "Позвонить родителям");
